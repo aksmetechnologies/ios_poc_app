@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2FC6134AF6BFB0C264274E0 /* Pods_LocationTrackPOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BFAAE66DB282BB7ECD1473 /* Pods_LocationTrackPOC.framework */; };
+		D3EDA04F2BC7F2CD00882505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDA04E2BC7F2CD00882505 /* AppDelegate.swift */; };
+		D3EDA0512BC7F2CD00882505 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDA0502BC7F2CD00882505 /* SceneDelegate.swift */; };
+		D3EDA0532BC7F2CD00882505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDA0522BC7F2CD00882505 /* ViewController.swift */; };
+		D3EDA0562BC7F2CD00882505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EDA0542BC7F2CD00882505 /* Main.storyboard */; };
+		D3EDA0582BC7F2CF00882505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EDA0572BC7F2CF00882505 /* Assets.xcassets */; };
+		D3EDA05B2BC7F2CF00882505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EDA0592BC7F2CF00882505 /* LaunchScreen.storyboard */; };
+		D3EDA0642BC7F3FD00882505 /* LocationSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDA0622BC7F3FD00882505 /* LocationSocket.swift */; };
+		D3EDA0652BC7F3FD00882505 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDA0632BC7F3FD00882505 /* SocketIOManager.swift */; };
+		D3EDA0672BC7F52100882505 /* CoreLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDA0662BC7F52100882505 /* CoreLocationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A33C00080257A5EBD948D4C8 /* Pods-LocationTrackPOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationTrackPOC.debug.xcconfig"; path = "Target Support Files/Pods-LocationTrackPOC/Pods-LocationTrackPOC.debug.xcconfig"; sourceTree = "<group>"; };
+		B4BFAAE66DB282BB7ECD1473 /* Pods_LocationTrackPOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationTrackPOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C720A6E63926A99B5754076F /* Pods-LocationTrackPOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationTrackPOC.release.xcconfig"; path = "Target Support Files/Pods-LocationTrackPOC/Pods-LocationTrackPOC.release.xcconfig"; sourceTree = "<group>"; };
+		D3EDA04B2BC7F2CD00882505 /* LocationTrackPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationTrackPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EDA04E2BC7F2CD00882505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3EDA0502BC7F2CD00882505 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3EDA0522BC7F2CD00882505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3EDA0552BC7F2CD00882505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3EDA0572BC7F2CF00882505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3EDA05A2BC7F2CF00882505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3EDA05C2BC7F2CF00882505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EDA0622BC7F3FD00882505 /* LocationSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSocket.swift; sourceTree = "<group>"; };
+		D3EDA0632BC7F3FD00882505 /* SocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		D3EDA0662BC7F52100882505 /* CoreLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLocationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3EDA0482BC7F2CD00882505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FC6134AF6BFB0C264274E0 /* Pods_LocationTrackPOC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BF70CECC595CC6D81609A7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A33C00080257A5EBD948D4C8 /* Pods-LocationTrackPOC.debug.xcconfig */,
+				C720A6E63926A99B5754076F /* Pods-LocationTrackPOC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A239F58339C6ADA4CBE5E1F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4BFAAE66DB282BB7ECD1473 /* Pods_LocationTrackPOC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3EDA0422BC7F2CD00882505 = {
+			isa = PBXGroup;
+			children = (
+				D3EDA04D2BC7F2CD00882505 /* LocationTrackPOC */,
+				D3EDA04C2BC7F2CD00882505 /* Products */,
+				1BF70CECC595CC6D81609A7D /* Pods */,
+				A239F58339C6ADA4CBE5E1F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3EDA04C2BC7F2CD00882505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3EDA04B2BC7F2CD00882505 /* LocationTrackPOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3EDA04D2BC7F2CD00882505 /* LocationTrackPOC */ = {
+			isa = PBXGroup;
+			children = (
+				D3EDA0662BC7F52100882505 /* CoreLocationManager.swift */,
+				D3EDA0622BC7F3FD00882505 /* LocationSocket.swift */,
+				D3EDA0632BC7F3FD00882505 /* SocketIOManager.swift */,
+				D3EDA04E2BC7F2CD00882505 /* AppDelegate.swift */,
+				D3EDA0502BC7F2CD00882505 /* SceneDelegate.swift */,
+				D3EDA0522BC7F2CD00882505 /* ViewController.swift */,
+				D3EDA0542BC7F2CD00882505 /* Main.storyboard */,
+				D3EDA0572BC7F2CF00882505 /* Assets.xcassets */,
+				D3EDA0592BC7F2CF00882505 /* LaunchScreen.storyboard */,
+				D3EDA05C2BC7F2CF00882505 /* Info.plist */,
+			);
+			path = LocationTrackPOC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3EDA04A2BC7F2CD00882505 /* LocationTrackPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3EDA05F2BC7F2CF00882505 /* Build configuration list for PBXNativeTarget "LocationTrackPOC" */;
+			buildPhases = (
+				E84E4F8BA858042577A3011B /* [CP] Check Pods Manifest.lock */,
+				D3EDA0472BC7F2CD00882505 /* Sources */,
+				D3EDA0482BC7F2CD00882505 /* Frameworks */,
+				D3EDA0492BC7F2CD00882505 /* Resources */,
+				20D4626B83BC44A238627DB2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationTrackPOC;
+			productName = LocationTrackPOC;
+			productReference = D3EDA04B2BC7F2CD00882505 /* LocationTrackPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3EDA0432BC7F2CD00882505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D3EDA04A2BC7F2CD00882505 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = D3EDA0462BC7F2CD00882505 /* Build configuration list for PBXProject "LocationTrackPOC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3EDA0422BC7F2CD00882505;
+			productRefGroup = D3EDA04C2BC7F2CD00882505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3EDA04A2BC7F2CD00882505 /* LocationTrackPOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3EDA0492BC7F2CD00882505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EDA05B2BC7F2CF00882505 /* LaunchScreen.storyboard in Resources */,
+				D3EDA0582BC7F2CF00882505 /* Assets.xcassets in Resources */,
+				D3EDA0562BC7F2CD00882505 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20D4626B83BC44A238627DB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocationTrackPOC/Pods-LocationTrackPOC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocationTrackPOC/Pods-LocationTrackPOC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LocationTrackPOC/Pods-LocationTrackPOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E84E4F8BA858042577A3011B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocationTrackPOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3EDA0472BC7F2CD00882505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EDA0532BC7F2CD00882505 /* ViewController.swift in Sources */,
+				D3EDA0652BC7F3FD00882505 /* SocketIOManager.swift in Sources */,
+				D3EDA0642BC7F3FD00882505 /* LocationSocket.swift in Sources */,
+				D3EDA04F2BC7F2CD00882505 /* AppDelegate.swift in Sources */,
+				D3EDA0512BC7F2CD00882505 /* SceneDelegate.swift in Sources */,
+				D3EDA0672BC7F52100882505 /* CoreLocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3EDA0542BC7F2CD00882505 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3EDA0552BC7F2CD00882505 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3EDA0592BC7F2CF00882505 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3EDA05A2BC7F2CF00882505 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3EDA05D2BC7F2CF00882505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3EDA05E2BC7F2CF00882505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3EDA0602BC7F2CF00882505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A33C00080257A5EBD948D4C8 /* Pods-LocationTrackPOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89R3M4Y7M2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocationTrackPOC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudrakshya.pocapps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3EDA0612BC7F2CF00882505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C720A6E63926A99B5754076F /* Pods-LocationTrackPOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89R3M4Y7M2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocationTrackPOC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudrakshya.pocapps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3EDA0462BC7F2CD00882505 /* Build configuration list for PBXProject "LocationTrackPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EDA05D2BC7F2CF00882505 /* Debug */,
+				D3EDA05E2BC7F2CF00882505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3EDA05F2BC7F2CF00882505 /* Build configuration list for PBXNativeTarget "LocationTrackPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EDA0602BC7F2CF00882505 /* Debug */,
+				D3EDA0612BC7F2CF00882505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3EDA0432BC7F2CD00882505 /* Project object */;
+}
